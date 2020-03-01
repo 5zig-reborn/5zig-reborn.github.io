@@ -127,7 +127,7 @@ The 5zig Reborn website contains links to other websites. Our privacy policy app
 
 ### Changes to our privacy policy
 
-5zig Reborn keeps its privacy policy under regular review and places any updates on this web page. This privacy policy was last updated on 2 November 2019.
+5zig Reborn keeps its privacy policy under regular review and places any updates on this web page.
 
 ### How to contact us
 
