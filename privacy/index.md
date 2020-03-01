@@ -1,4 +1,5 @@
 ### 5zig Reborn Privacy Policy
+Last updated: Mar 1, 2020
 
 This privacy policy will explain how our organization uses the personal data we collect from you when you use our website and/or our in-game services.
 
