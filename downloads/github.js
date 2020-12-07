@@ -47,7 +47,6 @@ fetch(stableUrl, options).then(res => {
 
     document.getElementById("stable-changelog").innerHTML = latestRelease.body
     document.getElementById("stable-name").innerHTML = latestRelease.name
-    console.debug(latestRelease.assets)
     latestRelease.assets.sort(sortVersion)
     latestRelease.assets.forEach(asset => {
         let name = asset.name
