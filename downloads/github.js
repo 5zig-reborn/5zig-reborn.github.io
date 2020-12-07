@@ -8,10 +8,17 @@ const options = {
         'Content-Type': 'application/json'
     }
 }
+const sortVersion = (a, b) => {
+    const capsA = /5zig-Reborn-(\d+)\.(\d+)\.(\d+)-.*/g.exec(a.name)
+    const capsB = /5zig-Reborn-(\d+)\.(\d+)\.(\d+)-.*/g.exec(b.name)
+    // Compare major.minor.patch
+    return parseInt(capsA[1]) - parseInt(capsB[1]) || parseInt(capsA[2]) - parseInt(capsB[2]) || parseInt(capsA[3]) - parseInt(capsB[3])
+}
 
 fetch(latestUrl, options).then(res => {
     return res.json()
 }).then(json => {
+    json.sort(sortVersion)
     json.forEach(asset => {
         let name = asset.name
         let dl = asset.download_url
@@ -40,6 +47,8 @@ fetch(stableUrl, options).then(res => {
 
     document.getElementById("stable-changelog").innerHTML = latestRelease.body
     document.getElementById("stable-name").innerHTML = latestRelease.name
+    console.debug(latestRelease.assets)
+    latestRelease.assets.sort(sortVersion)
     latestRelease.assets.forEach(asset => {
         let name = asset.name
         let dl = asset.browser_download_url
