@@ -9,27 +9,48 @@ const options = {
     }
 }
 const sortVersion = (a, b) => {
-    const capsA = /5zig-Reborn-(\d+)\.(\d+)\.(\d+)-.*/g.exec(a.name)
-    const capsB = /5zig-Reborn-(\d+)\.(\d+)\.(\d+)-.*/g.exec(b.name)
-    // Compare major.minor.patch
-    return parseInt(capsA[1]) - parseInt(capsB[1]) || parseInt(capsA[2]) - parseInt(capsB[2]) || parseInt(capsA[3]) - parseInt(capsB[3])
+    return a.mcMajor - b.mcMajor || a.mcMinor - b.mcMinor || a.mcPatch - b.mcPatch
+}
+
+const versionTypes = {
+    vanilla: {
+        icon: `<i class="fas fa-cube"></i>`,
+        btn: "btn-info",
+        mirror: "btn-outline-info",
+        name: "Vanilla"
+    },
+    vanillaforge: {
+        icon: `<i class="fas fa-cube"></i>/<i class="fas fa-weight-hanging"></i>`,
+        btn: "btn-primary",
+        mirror: "btn-outline-primary",
+        name: "Vanilla/Forge"
+    },
+    fabric: {
+        icon: `<i class="fas fa-scroll"></i>`,
+        btn: "btn-warning",
+        mirror: "btn-outline-warning",
+        name: "Fabric"
+    }
 }
 
 fetch(latestUrl, options).then(res => {
     return res.json()
 }).then(json => {
-    json.sort(sortVersion)
-    json.forEach(asset => {
-        let name = asset.name
-        let dl = asset.download_url
+    json.map(parseVersion).sort(sortVersion).forEach(version => {
+        const type = versionTypes[version.platform]
+        const asset = version.asset
+        const dl = asset.download_url
+        const name = `5zig Reborn ${version.version} (${!!type ? type.name : version.platform} ${version.mcMajor}.${version.mcMinor}.${version.mcPatch})`
 
-        let p = document.createElement("h5")
-        let normalUrl = document.createElement("a")
-        normalUrl.innerHTML = name
+        const p = document.createElement("h5")
+        const normalUrl = document.createElement("a")
+        normalUrl.innerHTML = `${!!type ? type.icon : ""} ${name}`
+        normalUrl.className = `btn ${!!type ? type.btn : ""}`
         normalUrl.href = "https://adfoc.us/serve/sitelinks?id=490788&&url=" + dl
 
-        let mirror = document.createElement("a")
-        mirror.innerHTML = "<small>[Mirror]</small>"
+        const mirror = document.createElement("a")
+        mirror.className = `btn btn-sm ${!!type ? type.mirror : ""}`
+        mirror.innerHTML = "Mirror"
         mirror.href = dl
 
         p.appendChild(normalUrl)
@@ -43,23 +64,25 @@ fetch(latestUrl, options).then(res => {
 fetch(stableUrl, options).then(res => {
     return res.json()
 }).then(json => {
-    let latestRelease = json[0]
-
+    const latestRelease = json[0]
     document.getElementById("stable-changelog").innerHTML = latestRelease.body
     document.getElementById("stable-name").innerHTML = latestRelease.name
-    latestRelease.assets.sort(sortVersion)
-    latestRelease.assets.forEach(asset => {
-        let name = asset.name
-        let dl = asset.browser_download_url
-        let count = asset.download_count.toLocaleString()
+    latestRelease.assets.map(parseVersion).sort(sortVersion).forEach(version => {
+        const asset = version.asset
+        const type = versionTypes[version.platform]
+        const dl = asset.browser_download_url
+        const count = asset.download_count.toLocaleString()
+        const name = `5zig Reborn ${version.version} (${!!type ? type.name : version.platform} ${version.mcMajor}.${version.mcMinor}.${version.mcPatch})`
 
-        let p = document.createElement("h5")
-        let normalUrl = document.createElement("a")
-        normalUrl.innerHTML = name
+        const p = document.createElement("h5")
+        const normalUrl = document.createElement("a")
+        normalUrl.innerHTML = `${!!type ? type.icon : ""} ${name}`
+        normalUrl.className = `btn ${!!type ? type.btn : ""}`
         normalUrl.href = "https://adfoc.us/serve/sitelinks?id=490788&&url=" + dl
 
-        let mirror = document.createElement("a")
-        mirror.innerHTML = "<small>[Mirror]</small>"
+        const mirror = document.createElement("a")
+        mirror.className = `btn btn-sm ${!!type ? type.mirror : ""}`
+        mirror.innerHTML = "Mirror"
         mirror.href = dl
 
         p.appendChild(normalUrl)
@@ -71,3 +94,21 @@ fetch(stableUrl, options).then(res => {
         document.getElementById("stable-downloads").appendChild(p)
     })
 })
+
+function parseVersion(asset) {
+    let caps = /5zig-Reborn-(\d+)\.(\d+)\.(\d+)-([^-]+)(?:-(.+))?\.jar/g.exec(asset.name)
+    let mcMajor = parseInt(caps[1])
+    let mcMinor = parseInt(caps[2])
+    let mcPatch = parseInt(caps[3])
+    let version = caps[4]
+    let platform = caps[5]
+    if (!platform) platform = mcMajor == 1 && mcMinor < 13 ? "vanillaforge" : "vanilla"
+    return {
+        mcMajor: mcMajor,
+        mcMinor: mcMinor,
+        mcPatch: mcPatch,
+        version: version,
+        platform: platform.toLowerCase(9),
+        asset: asset
+    }
+}
