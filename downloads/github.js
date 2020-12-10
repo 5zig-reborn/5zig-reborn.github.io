@@ -40,7 +40,7 @@ fetch(latestUrl, options).then(res => {
         const type = versionTypes[version.platform]
         const asset = version.asset
         const dl = asset.download_url
-        const name = `5zig Reborn ${version.version} (${!!type ? type.name : version.platform} ${version.mcMajor}.${version.mcMinor}.${version.mcPatch})`
+        const name = `5zig Reborn ${version.version} (<b>${!!type ? type.name : version.platform} ${version.mcMajor}.${version.mcMinor}.${version.mcPatch}</b>)`
 
         const p = document.createElement("h5")
         const normalUrl = document.createElement("a")
@@ -56,6 +56,8 @@ fetch(latestUrl, options).then(res => {
         p.appendChild(normalUrl)
         p.innerHTML += " "
         p.appendChild(mirror)
+        p.innerHTML += " "
+        p.appendChild(makeGuide(type))
 
         document.getElementById("downloads").appendChild(p)
     })
@@ -72,7 +74,7 @@ fetch(stableUrl, options).then(res => {
         const type = versionTypes[version.platform]
         const dl = asset.browser_download_url
         const count = asset.download_count.toLocaleString()
-        const name = `5zig Reborn ${version.version} (${!!type ? type.name : version.platform} ${version.mcMajor}.${version.mcMinor}.${version.mcPatch})`
+        const name = `5zig Reborn ${version.version} (<b>${!!type ? type.name : version.platform} ${version.mcMajor}.${version.mcMinor}.${version.mcPatch}</b>)`
 
         const p = document.createElement("h5")
         const normalUrl = document.createElement("a")
@@ -88,8 +90,8 @@ fetch(stableUrl, options).then(res => {
         p.appendChild(normalUrl)
         p.innerHTML += " "
         p.appendChild(mirror)
-
-        p.innerHTML += ` (${count})`
+        p.innerHTML += ` (${count}) `
+        p.appendChild(makeGuide(type))
 
         document.getElementById("stable-downloads").appendChild(p)
     })
@@ -111,4 +113,10 @@ function parseVersion(asset) {
         platform: platform.toLowerCase(9),
         asset: asset
     }
+}
+
+function makeGuide(type) {
+    const dom = document.createElement("a");
+    dom.innerHTML = `<a class="install-guide" href="install-${type.name.toLowerCase().replace(/\//g, "")}.html" title="How to install"><i class="fas fa-question-circle"></i></a>`
+    return dom
 }
