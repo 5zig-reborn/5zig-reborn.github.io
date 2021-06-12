@@ -9,5 +9,7 @@ main:
     url: "https://status.5zigreborn.eu/"
   - title: "FAQ"
     url: /faq/
+  - title: "Docs"
+    url: "https://docs.5zigreborn.eu"
   - title: "Changelogs"
     url: /changelogs/
