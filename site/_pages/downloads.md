@@ -34,6 +34,15 @@ However, you should use the [latest build](#latest-build-recommended) instead.
 <pre class="pre-scrollable"><code id="stable-changelog"></code></pre>
 <div id="stable-downloads"></div>
 
+## Cape-Template
+If you're a Patreon donator will you have the option to upload a custom Cape file to use.  
+Supported are both static Capes and animated ones. Note that animated capes are still PNG files with each separate frame set as another section within the file and that the animation runs at a set speed.
+
+If you want to design your own cape can you click the button below to download a Zip-File with Template files in them.  
+There are currently files for Gimp, Pain.net and Photoshop. The raw PNG files are also provided.
+
+[<i class='fas fa-download'></i> Download Zip-File](/assets/download/5zig-Reborn-Cape-Templates.zip){: .btn .btn--primary }
+
 ## How to Install
 Don't know how to install 5zig? These guides can help you!
 
