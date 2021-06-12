@@ -7,6 +7,7 @@ toc: true
 
 header:
   overlay_color: "#333"
+  overlay_filter: "0.5"
 
 excerpt: "Get the latest version of 5Zig for your Minecraft Version"
 
