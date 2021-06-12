@@ -63,15 +63,21 @@ plugins:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/The5zigMod"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/5zig-reborn"
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
       url: "https://l.5zigreborn.eu/discord"
+    - label: "Reddit"
+      icon: "fab fa-fw fa-reddit"
+      url: "https://reddit.com/r/5zig"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/The5zigMod"
+    - label: "Patreon"
+      icon: "fab fa-fw fa-patreon"
+      url: "https://patreon.com/5zig"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/5zig-reborn"
 
 defaults:
   # _pages
