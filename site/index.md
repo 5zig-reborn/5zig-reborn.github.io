@@ -18,7 +18,7 @@ feature_row_1:
     alt: "hud"
     title: "Useful HUD"
     excerpt: "Fully customizable HUD with useful information such as FPS, ping, system staus and more."
-  - image_path: /assets/images/preview_capes.png
+  - image_path: /assets/images/preview_cape.png
     alt: "capes"
     title: "Capes"
     excerpt: |-
@@ -39,11 +39,11 @@ feature_row_2:
     alt: "plugins"
     title: "Plugins"
     excerpt: "Extend the mod even further through the inclusion of custom Plugins!"
-  - image_path: /assets/images/preview_rpc.png
+  - image_path: /assets/images/preview_discord.png
     alt: "rpc"
     title: "Discord Rich Presence"
     excerpt: "Direct support for Discord's Rich presense, allowing you to display your current activity in Minecraft on your profile."
 ---
 
-{% include feature_row id="feature_row_1" type="center" %}
-{% include feature_row id="feature_row_2" type="center" %}
+{% include feature_row id="feature_row_1" %}
+{% include feature_row id="feature_row_2" %}
