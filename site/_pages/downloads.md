@@ -6,7 +6,7 @@ title: "Downloads"
 toc: true
 
 header:
-  overlay_color: "#333"
+  overlay_color: "linear-gradient(rgba(51,51,51,1), rgba(37,42,52,1))"
 
 excerpt: "Get the latest version of 5Zig for your Minecraft Version"
 
