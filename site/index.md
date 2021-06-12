@@ -1,28 +1,49 @@
 ---
 layout: splash
 permalink: /
-feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more" 
+
+overlay_color: #000
+overlay_filter: 0.5
+
+excerpt: |-
+  All-in-one modification for Minecraft 1.8.9-1.15.2.
+  Revamp the way you play the game!
+
+actions:
+  - label: "Download for Minecraft 1.8.9-1.15.2"
+    url: "https://5zigreborn.eu/downloads"
+
+feature_row_1:
+  - image_path: /assets/images/preview_hud.png
+    alt: "hud"
+    title: "Useful HUD"
+    excerpt: "Fully customizable HUD with useful information such as FPS, ping, system staus and more."
+  - image_path: /assets/images/preview_capes.png
+    alt: "capes"
+    title: "Capes"
+    excerpt: |-
+      A selection of 20+ default capes and the ability to upload custom capes.
+      
+      This feature is donators only.
+  - image_path: /assets/images/preview_chat.png
+    alt: "chat"
+    title: "Friends & Chat"
+    excerpt: "Connect with your friends, make parties and chat with them directly in-game!"
+
+feature_row_2:
+  - image_path: /assets/images/preview_translations.png
+    alt: "translations"
+    title: "Internationalization"
+    excerpt: "The Mod is offered in 15+ fully translated languages. And we're always looking for more people to join us."
+  - image_path: /assets/images/preview_plugins.png
+    alt: "plugins"
+    title: "Plugins"
+    excerpt: "Extend the mod even further through the inclusion of custom Plugins!"
+  - image_path: /assets/images/preview_rpc.png
+    alt: "rpc"
+    title: "Discord Rich Presence"
+    excerpt: "Direct support for Discord's Rich presense, allowing you to display your current activity in Minecraft on your profile."
 ---
 
-{% include feature_row %}
+{% include feature_row id="feature_row_1" type="center" %}
+{% include feature_row id="feature_row_2" type="center" %}
