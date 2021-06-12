@@ -21,3 +21,4 @@ jobs:
         publish_dir: ./site
         publish_branch: master
         enable_jekyll: true
+        #cname: 5zigreborn.eu # Uncomment this option to keep the custom domain
