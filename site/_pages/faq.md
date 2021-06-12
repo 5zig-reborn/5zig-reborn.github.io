@@ -7,6 +7,7 @@ toc: true
 
 header:
   overlay_color: "#333"
+  overlay_filter: "0.5"
   actions:
     - label: "<i class='fab fa-discord'></i> Ask us more on Discord!"
       url: "https://l.5zigreborn.eu/discord"
