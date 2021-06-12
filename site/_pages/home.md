@@ -9,9 +9,9 @@ header:
     - label: "Download for Minecraft 1.8.9-1.15.2"
       url: "https://5zigreborn.eu/downloads"
 
-  excerpt: |-
-    All-in-one modification for Minecraft 1.8.9-1.15.2.
-    Revamp the way you play the game!
+excerpt: |-
+  All-in-one modification for Minecraft 1.8.9-1.15.2.
+  Revamp the way you play the game!
 
 feature_row_1:
   - image_path: /assets/images/previews/hud.png
