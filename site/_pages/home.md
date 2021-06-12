@@ -2,16 +2,15 @@
 layout: splash
 permalink: /
 
-overlay_color: #000
-overlay_filter: 0.5
-
-excerpt: |-
-  All-in-one modification for Minecraft 1.8.9-1.15.2.
-  Revamp the way you play the game!
-
-actions:
-  - label: "Download for Minecraft 1.8.9-1.15.2"
-    url: "https://5zigreborn.eu/downloads"
+header:
+  overlay_color: #000
+  overlay_filter: 0.5
+  excerpt: |-
+    All-in-one modification for Minecraft 1.8.9-1.15.2.
+    Revamp the way you play the game!
+  actions:
+    - label: "Download for Minecraft 1.8.9-1.15.2"
+      url: "https://5zigreborn.eu/downloads"
 
 feature_row_1:
   - image_path: /assets/images/previews/hud.png
