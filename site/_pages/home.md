@@ -14,32 +14,32 @@ actions:
     url: "https://5zigreborn.eu/downloads"
 
 feature_row_1:
-  - image_path: /assets/images/preview_hud.png
+  - image_path: /assets/images/previews/hud.png
     alt: "hud"
     title: "Useful HUD"
     excerpt: "Fully customizable HUD with useful information such as FPS, ping, system staus and more."
-  - image_path: /assets/images/preview_cape.png
+  - image_path: /assets/images/previews/cape.png
     alt: "capes"
     title: "Capes"
     excerpt: |-
       A selection of 20+ default capes and the ability to upload custom capes.
       
       This feature is donators only.
-  - image_path: /assets/images/preview_chat.png
+  - image_path: /assets/images/previews/chat.png
     alt: "chat"
     title: "Friends & Chat"
     excerpt: "Connect with your friends, make parties and chat with them directly in-game!"
 
 feature_row_2:
-  - image_path: /assets/images/preview_translations.png
+  - image_path: /assets/images/previews/translations.png
     alt: "translations"
     title: "Internationalization"
     excerpt: "The Mod is offered in 15+ fully translated languages. And we're always looking for more people to join us."
-  - image_path: /assets/images/preview_plugins.png
+  - image_path: /assets/images/previews/plugins.png
     alt: "plugins"
     title: "Plugins"
     excerpt: "Extend the mod even further through the inclusion of custom Plugins!"
-  - image_path: /assets/images/preview_discord.png
+  - image_path: /assets/images/previews/discord.png
     alt: "rpc"
     title: "Discord Rich Presence"
     excerpt: "Direct support for Discord's Rich presense, allowing you to display your current activity in Minecraft on your profile."

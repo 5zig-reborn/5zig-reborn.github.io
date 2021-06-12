@@ -1,9 +1,13 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "Home"
+    url: /
+  - title: "Downloads"
+    url: /downloads/
+  - title: "Panel"
+    url: "https://secure.5zigreborn.eu/panel"
+  - title: "Status"
+    url: "https://status.5zigreborn.eu/"
+  - title: "FAQ"
+    url: /faq/
+  - title: "Changelogs"
+    url: /changelogs/

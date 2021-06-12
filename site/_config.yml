@@ -14,14 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 'The 5zig Mod'
-email:
 description: |- # this means to ignore newlines until "baseurl:"
   All-in-one modification for Minecraft 1.8.9 - 1.16.5
   Revamp the way you play the game!
 twitter_username: The5zigMod
 github_username: 5zig-reborn
 minimal_mistakes_skin: dark
-search: true
+search: false
 
 # Build settings
 markdown: kramdown
@@ -58,18 +57,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-author:
-  name   : "5zig Reborn"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/The5zigMod"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/5zig-reborn"
-
 footer:
   links:
     - label: "Twitter"
@@ -97,3 +84,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+atom_feed:
+  hide: true
