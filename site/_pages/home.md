@@ -8,6 +8,8 @@ header:
   actions:
     - label: "<i class='fas fa-download'></i> Download for Minecraft 1.8.9-1.15.2"
       url: "https://5zigreborn.eu/downloads"
+    - label: "<i class='fab fa-github'></i> Source Code"
+      url: "https://github.com/5zig-reborn"
 
 excerpt: "All-in-one modification for Minecraft 1.8.9-1.15.2.<br>Revamp the way you play the game!"
 
