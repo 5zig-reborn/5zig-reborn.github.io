@@ -17,9 +17,12 @@ title: 'The 5zig Mod'
 description: |- # this means to ignore newlines until "baseurl:"
   All-in-one modification for Minecraft 1.8.9 - 1.16.5
   Revamp the way you play the game!
+
 twitter_username: The5zigMod
 github_username: 5zig-reborn
+
 minimal_mistakes_skin: dark
+
 search: false
 
 # Build settings
