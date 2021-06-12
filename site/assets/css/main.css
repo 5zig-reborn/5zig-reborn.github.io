@@ -1,9 +1,0 @@
-blockquote .notice--warning {
-    background-color: rgba(255,145,0,.1);
-    border-left: .2rem solid #FF9100;
-}
-
-blockquote .notice--info {
-    background-color: rgba(0,184,212,.1);
-    border-left: .2rem solid #00B8D4;
-}
