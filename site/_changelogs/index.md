@@ -7,11 +7,11 @@ title: "Changelogs"
 header:
   overlay_color: "#333"
 
-excerpt: "The current and past Changelogs of 5Zig"
+excerpt: "All the Changelogs of 5Zig Reborn"
 ---
 
-# Changelogs
-Here you can find all the current Changelogs of 5Zig.
+# v3
+All Changelogs of 5Zig Reborn 3.x
 
-[3.14.0](3.14.0){: .btn .btn--primary }  
-[3.13.0](3.13.0){: .btn .btn--primary }
+[<i class="fas fa-scroll"></i> 3.14.0](3.14.0){: .btn .btn--primary }  
+[<i class="fas fa-scroll"></i> 3.13.0](3.13.0){: .btn .btn--primary }
