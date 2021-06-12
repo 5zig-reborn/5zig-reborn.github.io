@@ -45,11 +45,11 @@ fetch(latestUrl, options).then(res => {
         const p = document.createElement("h5")
         const normalUrl = document.createElement("a")
         normalUrl.innerHTML = `${!!type ? type.icon : ""} ${name}`
-        normalUrl.className = `${!!type ? type.btn : ""}`
+        normalUrl.className = `.btn ${!!type ? type.btn : ""}`
         normalUrl.href = "https://adfoc.us/serve/sitelinks?id=490788&&url=" + dl
 
         const mirror = document.createElement("a")
-        mirror.className = `${!!type ? type.mirror : ""}`
+        mirror.className = `.btn ${!!type ? type.mirror : ""}`
         mirror.innerHTML = "Mirror"
         mirror.href = dl
 
@@ -77,11 +77,11 @@ fetch(stableUrl, options).then(res => {
         const p = document.createElement("h5")
         const normalUrl = document.createElement("a")
         normalUrl.innerHTML = `${!!type ? type.icon : ""} ${name}`
-        normalUrl.className = `btn ${!!type ? type.btn : ""}`
+        normalUrl.className = `.btn ${!!type ? type.btn : ""}`
         normalUrl.href = "https://adfoc.us/serve/sitelinks?id=490788&&url=" + dl
 
         const mirror = document.createElement("a")
-        mirror.className = `${!!type ? type.mirror : ""}`
+        mirror.className = `.btn ${!!type ? type.mirror : ""}`
         mirror.innerHTML = "Mirror"
         mirror.href = dl
 
