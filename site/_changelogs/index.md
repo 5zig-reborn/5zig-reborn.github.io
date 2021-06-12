@@ -3,6 +3,7 @@ layout: splash
 permalink: /changelogs/
 
 title: "Changelogs"
+toc: true
 
 header:
   overlay_color: "#333"

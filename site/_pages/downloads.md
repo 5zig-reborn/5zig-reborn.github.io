@@ -3,6 +3,7 @@ layout: splash
 permalink: /downloads/
 
 title: "Downloads"
+toc: true
 
 header:
   overlay_color: "#333"

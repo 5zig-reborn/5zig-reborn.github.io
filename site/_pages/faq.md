@@ -3,6 +3,7 @@ layout: splash
 permalink: /faq/
 
 title: "Frequently asked questions"
+toc: true
 
 header:
   overlay_color: "#333"
