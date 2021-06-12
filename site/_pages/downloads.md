@@ -33,3 +33,35 @@ However, you should use the [latest build](#latest-build-recommended) instead.
 <h4 id="stable-name"></h4>
 <pre class="pre-scrollable"><code id="stable-changelog"></code></pre>
 <div id="stable-downloads"></div>
+
+## How to Install
+Don't know how to install 5zig? These guides can help you!
+
+### Vanilla
+> **Note:**  
+> This is only supported for Minecraft 1.15.2 and older!
+{: .notice--warning }
+
+Before you install 5Zig, make sure that both the Game and Launcher are closed.
+
+To install 5Zig on your Vanilla Minecraft, double-click the downloaded Jar-file to execute it.  
+If you get a Prompt to "Choose a program to open this file" and there is no Java option, [download and install Java](https://adoptopenjdk.net/).  
+If the Jar is opened in WinRAR, 7Zip or similar, close the window and right-click the Jar followed by clicking on "Run > Java" (Or similar).
+
+Once the installation is complete, start your Launcher, select the newly created 5Zig Profile (if it isn't already pre-selected) and start it.
+
+### Forge
+> **Note:**  
+> This is only supported for Minecraft 1.8.9 and 1.12.2!
+{: .notice--warning }
+
+Once you downloaded the Forge version, drag and drop it into the `mods` folder of your forge-profile (Usually `.minecraft/mods`).  
+Do NOT execute (double-click) the Jar-file itself!
+
+For more info about Forge including how to install and use it, please visit the [Forge Website](https://files.minecraftforge.net/).
+
+### Fabric
+Once you downloaded the Fabric version, drag and drop it into the `mods` folder of your Fabric-Profile (Usually `.minecraft/mods`).  
+Do NOT execute (double-click) the Jar-file itself!
+
+For more info about Fabric including how to install and use it, please visit the [Fabric Website](https://fabricmc.net/).

@@ -56,8 +56,6 @@ fetch(latestUrl, options).then(res => {
         p.appendChild(normalUrl)
         p.innerHTML += " "
         p.appendChild(mirror)
-        p.innerHTML += " "
-        p.appendChild(makeGuide(type))
 
         document.getElementById("downloads").appendChild(p)
     })
@@ -83,15 +81,14 @@ fetch(stableUrl, options).then(res => {
         normalUrl.href = "https://adfoc.us/serve/sitelinks?id=490788&&url=" + dl
 
         const mirror = document.createElement("a")
-        mirror.className = `btn btn-sm ${!!type ? type.mirror : ""}`
+        mirror.className = `${!!type ? type.mirror : ""}`
         mirror.innerHTML = "Mirror"
         mirror.href = dl
 
         p.appendChild(normalUrl)
         p.innerHTML += " "
         p.appendChild(mirror)
-        p.innerHTML += ` (${count}) `
-        p.appendChild(makeGuide(type))
+        p.innerHTML += ` (${count})`
 
         document.getElementById("stable-downloads").appendChild(p)
     })
@@ -113,10 +110,4 @@ function parseVersion(asset) {
         platform: platform.toLowerCase(9),
         asset: asset
     }
-}
-
-function makeGuide(type) {
-    const dom = document.createElement("a");
-    dom.innerHTML = `<a class="install-guide" href="install-${type.name.toLowerCase().replace(/\//g, "")}.html" title="How to install"><i class="fas fa-question-circle"></i></a>`
-    return dom
 }
