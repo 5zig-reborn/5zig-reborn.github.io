@@ -2,35 +2,34 @@
 layout: splash
 permalink: /downloads/
 
-title: "Downloads"
-toc: true
+title: "Downloads - The 5zig Mod"
+excerpt: "Get the latest version of 5zig for your Minecraft Version"
 
 header:
   overlay_color: "#333"
   overlay_filter: "0.5"
 
-excerpt: "Get the latest version of 5Zig for your Minecraft Version"
 
 page_js:
   - /assets/js/github.js
 ---
 
 > **Current Status about Minecraft 1.16+**  
-> The 5Zig-Team decided to drop Forge-Support for 1.16 onwards and instead use [Fabric](https://fabricmc.net/).  
+> The 5zig-Team decided to drop Forge-Support for 1.16 onwards and instead use [Fabric](https://fabricmc.net/).  
 > A Development-Build for 1.16 can be downloaded [here](https://github.com/5zig-reborn/deployments/tree/1.16).
 >
 > There is no ETA nor any Development-Builds for 1.17
 {: .notice--info }
 
-## Latest Build (Recommended)
-Those are the latest build-files of the 5Zig Mod.  
+## Latest Build (Recommended){: #latest-build }
+Those are the latest build-files of the 5zig Mod.  
 They contain the latest features and fixes, but may also contain bugs.
 
 <div id="downloads"></div>
 
-## Latest stable Release
+## Latest stable Release{: #stable-release }
 These releases are handpicked and considered to be the most stable when a milestone was reached.  
-However, you should use the [latest build](#latest-build-recommended) instead.
+However, you should use the [latest build](#latest-build) instead.
 
 <h4 id="stable-name"></h4>
 <pre class="pre-scrollable"><code id="stable-changelog"></code></pre>
@@ -41,7 +40,7 @@ If you're a Patreon donator will you have the option to upload a custom Cape fil
 Supported are both static Capes and animated ones. Note that animated capes are still PNG files with each separate frame set as another section within the file and that the animation runs at a set speed.
 
 If you want to design your own cape can you click the button below to download a Zip-File with Template files in them.  
-There are currently files for Gimp, Pain.net and Photoshop. The raw PNG files are also provided.
+There are currently files for Gimp, Paint.net and Photoshop. The raw PNG files are also provided.
 
 [<i class='fas fa-download'></i> Download Zip-File](/assets/download/5zig-Reborn-Cape-Templates.zip){: .btn .btn--primary }
 
@@ -53,13 +52,13 @@ Don't know how to install 5zig? These guides can help you!
 > This is only supported for Minecraft 1.15.2 and older!
 {: .notice--warning }
 
-Before you install 5Zig, make sure that both the Game and Launcher are closed.
+Before you install 5zig, make sure that both the Game and Launcher are closed.
 
-To install 5Zig on your Vanilla Minecraft, double-click the downloaded Jar-file to execute it.  
+To install 5zig on your Vanilla Minecraft, double-click the downloaded Jar-file to execute it.  
 If you get a Prompt to "Choose a program to open this file" and there is no Java option, [download and install Java](https://adoptopenjdk.net/).  
 If the Jar is opened in WinRAR, 7Zip or similar, close the window and right-click the Jar followed by clicking on "Run > Java" (Or similar).
 
-Once the installation is complete, start your Launcher, select the newly created 5Zig Profile (if it isn't already pre-selected) and start it.
+Once the installation is complete, start your Launcher, select the newly created 5zig Profile (if it isn't already pre-selected) and start it.
 
 ### Forge
 > **Note:**  

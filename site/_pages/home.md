@@ -2,6 +2,9 @@
 layout: splash
 permalink: /
 
+title: "The 5zig Mod | 5zig Reborn"
+excerpt: "All-in-one modification for Minecraft 1.8.9-1.15.2.<br>Revamp the way you play the game!"
+
 header:
   overlay_color: "#333"
   overlay_filter: "0.5"
@@ -10,8 +13,6 @@ header:
       url: "https://5zigreborn.eu/downloads"
     - label: "<i class='fab fa-github'></i> Source Code"
       url: "https://github.com/5zig-reborn"
-
-excerpt: "All-in-one modification for Minecraft 1.8.9-1.15.2.<br>Revamp the way you play the game!"
 
 feature_row_1:
   - image_path: /assets/images/previews/hud.png
