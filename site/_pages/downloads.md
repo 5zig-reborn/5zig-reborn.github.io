@@ -2,7 +2,7 @@
 layout: splash
 permalink: /downloads/
 
-title: "Downloads - The 5zig Mod"
+title: "Downloads"
 excerpt: "Get the latest version of 5zig for your Minecraft Version"
 
 header:

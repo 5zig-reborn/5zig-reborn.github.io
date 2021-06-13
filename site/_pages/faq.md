@@ -2,7 +2,7 @@
 layout: splash
 permalink: /faq/
 
-title: "FAQ - The 5zig Mod"
+title: "FAQ"
 excerpt: "Answers towards the most common questions people may have."
 
 toc: true

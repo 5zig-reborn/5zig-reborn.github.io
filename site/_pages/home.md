@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 
-title: "The 5zig Mod | 5zig Reborn"
+title: "The 5zig Mod"
 excerpt: "All-in-one modification for Minecraft 1.8.9-1.15.2.<br>Revamp the way you play the game!"
 
 header:

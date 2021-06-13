@@ -2,7 +2,7 @@
 layout: splash
 permalink: /changelogs/
 
-title: "Changelogs - The 5zig Mod"
+title: "Changelogs"
 excerpt: "Changelogs of the 5zig Reborn Mod"
 
 toc: true
