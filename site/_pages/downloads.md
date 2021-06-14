@@ -38,7 +38,8 @@ However, you should use the [latest build](#latest-build) instead.
 ## Cape-Template
 5zig Reborn allows Tier 2 Patreons to upload their own custom capes and elytra styles which can even be animated!
 
-Animated capes and elytras use the same format as animated textures in Resource packs do, which is having each "frame" as another part below the previous one. The animation is at a set speed.a set speed.
+Animated capes and elytras use the same format as animated textures in Resource packs do, which is having each "frame" as another part below the previous one.  
+The animation is at a speed set by the mod.
 
 The button below allows you to download a Zip-File containing files for making static and animated cape and elytra textures.  
 Available are files for Gimp, Paint.net and Photoshop. The raw PNG files are also provided.
