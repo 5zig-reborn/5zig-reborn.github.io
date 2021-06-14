@@ -36,11 +36,12 @@ However, you should use the [latest build](#latest-build) instead.
 <div id="stable-downloads"></div>
 
 ## Cape-Template
-If you're a Patreon donator will you have the option to upload a custom Cape file to use.  
-Supported are both static Capes and animated ones. Note that animated capes are still PNG files with each separate frame set as another section within the file and that the animation runs at a set speed.
+5zig Reborn allows Tier 2 Patreons to upload their own custom capes and elytra styles which can even be animated!
 
-If you want to design your own cape can you click the button below to download a Zip-File with Template files in them.  
-There are currently files for Gimp, Paint.net and Photoshop. The raw PNG files are also provided.
+Animated capes and elytras use the same format as animated textures in Resource packs do, which is having each "frame" as another part below the previous one. The animation is at a set speed.a set speed.
+
+The button below allows you to download a Zip-File containing files for making static and animated cape and elytra textures.  
+Available are files for Gimp, Paint.net and Photoshop. The raw PNG files are also provided.
 
 [<i class='fas fa-download'></i> Download Zip-File](/assets/download/5zig-Reborn-Cape-Templates.zip){: .btn .btn--primary }
 
