@@ -21,13 +21,13 @@ page_js:
 > There is no ETA nor any Development-Builds for 1.17
 {: .notice--info }
 
-## Latest Build (Recommended){: #latest-build }
+## Latest Build (Recommended)
 Those are the latest build-files of the 5zig Mod.  
 They contain the latest features and fixes, but may also contain bugs.
 
 <div id="downloads"></div>
 
-## Latest stable Release{: #stable-release }
+## Latest stable Release
 These releases are handpicked and considered to be the most stable when a milestone was reached.  
 However, you should use the [latest build](#latest-build) instead.
 
