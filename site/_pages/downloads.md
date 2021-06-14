@@ -60,18 +60,17 @@ If the Jar is opened in WinRAR, 7Zip or similar, close the window and right-clic
 
 Once the installation is complete, start your Launcher, select the newly created 5zig Profile (if it isn't already pre-selected) and start it.
 
-### Forge
-> **Note:**  
-> This is only supported for Minecraft 1.8.9 and 1.12.2!
+### Forge / Fabric
+> **Notes:**
+> 
+> - The Forge version only supports Minecraft 1.8.9 and 1.12.2!
+> - The Fabric version only supports Minecraft 1.15.2 (See the note at the top for info on 1.16+ support)
 {: .notice--warning }
 
-Once you downloaded the Forge version, drag and drop it into the `mods` folder of your forge-profile (Usually `.minecraft/mods`).  
-Do NOT execute (double-click) the Jar-file itself!
+Forge and Fabric share the same installation process which is as follows:  
+Once you downloaded the matching jar file for either Forge or Fabric, head over to your mods folder (Usually located under `.minecraft`) and place the jar in it.  
+You can then start the Forge/Fabric profile in your Launcher and the 5zig Mod should be loaded.
 
-For more info about Forge including how to install and use it, please visit the [Forge Website](https://files.minecraftforge.net/).
+Do NOT double-click (execute) the Jar-file itself!
 
-### Fabric
-Once you downloaded the Fabric version, drag and drop it into the `mods` folder of your Fabric-Profile (Usually `.minecraft/mods`).  
-Do NOT execute (double-click) the Jar-file itself!
-
-For more info about Fabric including how to install and use it, please visit the [Fabric Website](https://fabricmc.net/).
+For more info about Forge, visit the [Forge Website](https://minecraftforge.net) and for more info about Fabric, visit the [Fabric Website](https://fabricmc.net).
