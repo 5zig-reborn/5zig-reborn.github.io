@@ -92,6 +92,8 @@ defaults:
       path: "_changelogs"
       type: pages
     values:
+      sidebar:
+        nav: "changelogs"
       layout: single
       author_profile: false
 
