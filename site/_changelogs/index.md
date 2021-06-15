@@ -1,14 +1,11 @@
 ---
-layout: splash
+layout: single
 permalink: /changelogs/
 
 title: "Changelogs"
 excerpt: "Changelogs of the 5zig Reborn Mod"
 
 toc: true
-
-header:
-  overlay_color: "#333"
 ---
 
 # v3

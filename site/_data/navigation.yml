@@ -12,12 +12,12 @@ main:
   - title: "Docs"
     url: "https://docs.5zigreborn.eu"
   - title: "Changelogs"
-    url: /changelog/
+    url: /changelogs/
 
 changelogs:
   - title: "Changelogs"
     children:
       - title: "v1.14.0 (Latest)"
-        url: /changelog/1.14.0/
+        url: /changelogs/1.14.0/
       - title: "v1.13.0"
-        url: /changelog/1.13.0/
+        url: /changelogs/1.13.0/
