@@ -3,11 +3,6 @@ main:
     url: /
   - title: "Downloads"
     url: /downloads/
-    children:
-      - title: "Latest Build"
-        url: "/downloads/#latest-build-recommended"
-      - title: "Latest Stable"
-        url: "/downloads/#latest-stable-release"
   - title: "Panel"
     url: "https://secure.5zigreborn.eu/panel"
   - title: "Status"
@@ -17,4 +12,8 @@ main:
   - title: "Docs"
     url: "https://docs.5zigreborn.eu"
   - title: "Changelogs"
-    url: /changelogs/
+    children:
+      - title: "v1.14.0"
+        url: /changelogs/3.14.0
+      - title: "v1.13.0"
+        url: /changelogs/3.13.0
