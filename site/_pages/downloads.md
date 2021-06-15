@@ -33,7 +33,7 @@ However, you should use the [latest build](#latest-build) instead.
 
 <h4 id="stable-name"></h4>
 
-<i class="fas fa-scroll"></i> <div id="stable-changelog"></div>
+<div id="stable-changelog"></div>
 <div id="stable-downloads"></div>
 
 ## Cape-Template
