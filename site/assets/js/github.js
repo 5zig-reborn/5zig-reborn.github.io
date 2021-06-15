@@ -65,7 +65,7 @@ fetch(stableUrl, options).then(res => {
     return res.json()
 }).then(json => {
     const latestRelease = json[0]
-    document.getElementById("stable-changelog").innerHTML = "<i class="fas fa-scroll"></i> " + latestRelease.body
+    document.getElementById("stable-changelog").innerHTML = latestRelease.body
     document.getElementById("stable-name").innerHTML = latestRelease.name
     latestRelease.assets.map(parseVersion).sort(sortVersion).forEach(version => {
         const asset = version.asset
