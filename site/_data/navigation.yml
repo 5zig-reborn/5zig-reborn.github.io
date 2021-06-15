@@ -27,9 +27,7 @@ changelogs:
 guides:
   - title: "Guides"
     children:
-      - title: "Install 5zig"
-        children:
-          - title: "Vanilla"
-            url: /guides/install/vanilla/
-          - title: "Fabric/Forge"
-            url: /guides/install/fabric-forge/
+      - title: "Install on Vanilla"
+        url: /guides/install/vanilla/
+      - title: "Install on Fabric/Forge"
+        url: /guides/install/fabric-forge/

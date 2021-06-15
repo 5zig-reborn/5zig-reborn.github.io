@@ -3,11 +3,8 @@ permalink: /guides/install/vanilla/
 
 title: "Install (Vanilla)"
 excerpt: "How to install 5zig Reborn on Vanilla Minecraft."
-
-toc: true
 ---
 
-# How to install on Vanilla Minecraft
 > This Guide is only supported for Minecraft 1.15.2 and newer.
 {: .notice--info }
 

@@ -3,11 +3,8 @@ permalink: /guides/install/fabric-forge/
 
 title: "Install (Fabric/Forge)"
 excerpt: "How to install 5zig Reborn on Fabric or Forge"
-
-toc: true
 ---
 
-# How to install on Fabric or Forge
 > This Guide is only supported for Fabric 1.15.2, Forge 1.8.9 and Forge 1.12.2.
 {: .notice--info }
 
