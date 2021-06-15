@@ -53,7 +53,7 @@ Don't know how to install 5zig? These guides can help you!
 ### Vanilla
 > **Note:**  
 > This is only supported for Minecraft 1.15.2 and older!
-{: .notice--warning }
+{: .notice--info }
 
 Before you install 5zig, make sure that both the Game and Launcher are closed.
 
@@ -68,7 +68,7 @@ Once the installation is complete, start your Launcher, select the newly created
 > 
 > - The Forge version only supports Minecraft 1.8.9 and 1.12.2!
 > - The Fabric version only supports Minecraft 1.15.2 (See the note at the top for info on 1.16+ support)
-{: .notice--warning }
+{: .notice--info }
 
 Forge and Fabric share the same installation process which is as follows:  
 Once you downloaded the matching jar file for either Forge or Fabric, head over to your mods folder (Usually located under `.minecraft`) and place the jar in it.  
