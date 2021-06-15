@@ -11,6 +11,8 @@ main:
     url: /faq/
   - title: "Docs"
     url: "https://docs.5zigreborn.eu"
+  - title: "Guides"
+    url: /guides/
   - title: "Changelogs"
     url: /changelogs/
 
@@ -21,3 +23,13 @@ changelogs:
         url: /changelogs/1.14.0/
       - title: "v1.13.0"
         url: /changelogs/1.13.0/
+
+guides:
+  - title: "Guides"
+    children:
+      - title: "Install 5zig"
+        children:
+          - title: "Vanilla"
+            url: /guides/install/vanilla/
+          - title: "Fabric/Forge"
+            url: /guides/install/fabric-forge/

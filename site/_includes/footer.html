@@ -1,4 +1,23 @@
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.data.ui-text[site.locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+    {% endif %}
+
+    {% if site.footer.links %}
+      {% for link in site.footer.links %}
+        {% if link.label and link.url %}
+          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    
+    <a href="https://www.patreon.com/bePatron?u=21831307" data-patreon-widget-type="become-patron-button">Become a Patron!</a>
+    <script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+  </ul>
+</div>
+
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Not affiliated with or endorsed by Microsoft or Mojang AB.<br>
 Project License: <i class="fas fa-balance-scale"></i> <a href="https://www.gnu.org/licenses/gpl-3.0" target="_blank">GNU General Public License v3.0</a>
 
-<p>Theme: <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a></p></div>
+<p>Theme: <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a> powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a></div>
