@@ -42,7 +42,7 @@ fetch(latestUrl, options).then(res => {
         const dl = asset.download_url
         const name = `5zig Reborn ${version.version} (<b>${!!type ? type.name : version.platform} ${version.mcMajor}.${version.mcMinor}.${version.mcPatch}</b>)`
 
-        const p = document.createElement("h5")
+        const p = document.createElement("div")
         const normalUrl = document.createElement("a")
         normalUrl.innerHTML = `${!!type ? type.icon : ""} ${name}`
         normalUrl.className = `btn ${!!type ? type.btn : ""}`
@@ -74,7 +74,7 @@ fetch(stableUrl, options).then(res => {
         const count = asset.download_count.toLocaleString()
         const name = `5zig Reborn ${version.version} (<b>${!!type ? type.name : version.platform} ${version.mcMajor}.${version.mcMinor}.${version.mcPatch}</b>)`
 
-        const p = document.createElement("h5")
+        const p = document.createElement("div")
         const normalUrl = document.createElement("a")
         normalUrl.innerHTML = `${!!type ? type.icon : ""} ${name}`
         normalUrl.className = `btn ${!!type ? type.btn : ""}`
