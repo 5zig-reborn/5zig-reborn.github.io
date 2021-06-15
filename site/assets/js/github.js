@@ -15,20 +15,20 @@ const sortVersion = (a, b) => {
 const versionTypes = {
     vanilla: {
         icon: `<i class="fas fa-cube"></i>`,
-        btn: ".btn--info",
-        mirror: ".btn--inverse",
+        btn: "btn--info",
+        mirror: "btn--inverse",
         name: "Vanilla"
     },
     vanillaforge: {
         icon: `<i class="fas fa-cube"></i>/<i class="fas fa-weight-hanging"></i>`,
-        btn: ".btn--primary",
-        mirror: ".btn--inverse",
+        btn: "btn--primary",
+        mirror: "btn--inverse",
         name: "Vanilla/Forge"
     },
     fabric: {
         icon: `<i class="fas fa-scroll"></i>`,
-        btn: ".btn--warning",
-        mirror: ".btn--inverse",
+        btn: "btn--warning",
+        mirror: "btn--inverse",
         name: "Fabric"
     }
 }
@@ -45,11 +45,11 @@ fetch(latestUrl, options).then(res => {
         const p = document.createElement("h5")
         const normalUrl = document.createElement("a")
         normalUrl.innerHTML = `${!!type ? type.icon : ""} ${name}`
-        normalUrl.className = `.btn ${!!type ? type.btn : ""}`
+        normalUrl.className = `btn ${!!type ? type.btn : ""}`
         normalUrl.href = "https://adfoc.us/serve/sitelinks?id=490788&&url=" + dl
 
         const mirror = document.createElement("a")
-        mirror.className = `.btn ${!!type ? type.mirror : ""}`
+        mirror.className = `btn ${!!type ? type.mirror : ""}`
         mirror.innerHTML = "Mirror"
         mirror.href = dl
 
@@ -77,11 +77,11 @@ fetch(stableUrl, options).then(res => {
         const p = document.createElement("h5")
         const normalUrl = document.createElement("a")
         normalUrl.innerHTML = `${!!type ? type.icon : ""} ${name}`
-        normalUrl.className = `.btn ${!!type ? type.btn : ""}`
+        normalUrl.className = `btn ${!!type ? type.btn : ""}`
         normalUrl.href = "https://adfoc.us/serve/sitelinks?id=490788&&url=" + dl
 
         const mirror = document.createElement("a")
-        mirror.className = `.btn ${!!type ? type.mirror : ""}`
+        mirror.className = `btn ${!!type ? type.mirror : ""}`
         mirror.innerHTML = "Mirror"
         mirror.href = dl
 
