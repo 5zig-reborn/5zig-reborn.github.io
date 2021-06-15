@@ -32,7 +32,8 @@ These releases are handpicked and considered to be the most stable when a milest
 However, you should use the [latest build](#latest-build) instead.
 
 <h4 id="stable-name"></h4>
-<pre class="pre-scrollable"><code id="stable-changelog"></code></pre>
+
+<div class="stable-changelog"></div>
 <div id="stable-downloads"></div>
 
 ## Cape-Template
