@@ -103,6 +103,8 @@ defaults:
       path: "_guides"
       type: pages
     values:
+      sidebar:
+        nav: guides
       layout: single
       author_profile: false
 
