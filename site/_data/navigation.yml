@@ -3,6 +3,11 @@ main:
     url: /
   - title: "Downloads"
     url: /downloads/
+    children:
+      - title: "Latest Build"
+        url: "/downloads/#latest-build-recommended"
+      - title: "Latest Stable"
+        url: "/downloads/#latest-stable-release"
   - title: "Panel"
     url: "https://secure.5zigreborn.eu/panel"
   - title: "Status"
