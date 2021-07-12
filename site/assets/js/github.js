@@ -15,20 +15,20 @@ const sortVersion = (a, b) => {
 const versionTypes = {
     vanilla: {
         icon: `<i class="fas fa-cube"></i>`,
-        btn: "btn-info",
-        mirror: "btn-outline-info",
+        btn: "btn--info",
+        mirror: "btn--inverse",
         name: "Vanilla"
     },
     vanillaforge: {
         icon: `<i class="fas fa-cube"></i>/<i class="fas fa-weight-hanging"></i>`,
-        btn: "btn-primary",
-        mirror: "btn-outline-primary",
+        btn: "btn--primary",
+        mirror: "btn--inverse",
         name: "Vanilla/Forge"
     },
     fabric: {
         icon: `<i class="fas fa-scroll"></i>`,
-        btn: "btn-warning",
-        mirror: "btn-outline-warning",
+        btn: "btn--warning",
+        mirror: "btn--inverse",
         name: "Fabric"
     }
 }
@@ -42,22 +42,20 @@ fetch(latestUrl, options).then(res => {
         const dl = asset.download_url
         const name = `5zig Reborn ${version.version} (<b>${!!type ? type.name : version.platform} ${version.mcMajor}.${version.mcMinor}.${version.mcPatch}</b>)`
 
-        const p = document.createElement("h5")
+        const p = document.createElement("div")
         const normalUrl = document.createElement("a")
         normalUrl.innerHTML = `${!!type ? type.icon : ""} ${name}`
         normalUrl.className = `btn ${!!type ? type.btn : ""}`
         normalUrl.href = "https://adfoc.us/serve/sitelinks?id=490788&&url=" + dl
 
         const mirror = document.createElement("a")
-        mirror.className = `btn btn-sm ${!!type ? type.mirror : ""}`
+        mirror.className = `btn ${!!type ? type.mirror : ""}`
         mirror.innerHTML = "Mirror"
         mirror.href = dl
 
         p.appendChild(normalUrl)
         p.innerHTML += " "
         p.appendChild(mirror)
-        p.innerHTML += " "
-        p.appendChild(makeGuide(type))
 
         document.getElementById("downloads").appendChild(p)
     })
@@ -76,22 +74,21 @@ fetch(stableUrl, options).then(res => {
         const count = asset.download_count.toLocaleString()
         const name = `5zig Reborn ${version.version} (<b>${!!type ? type.name : version.platform} ${version.mcMajor}.${version.mcMinor}.${version.mcPatch}</b>)`
 
-        const p = document.createElement("h5")
+        const p = document.createElement("div")
         const normalUrl = document.createElement("a")
         normalUrl.innerHTML = `${!!type ? type.icon : ""} ${name}`
         normalUrl.className = `btn ${!!type ? type.btn : ""}`
         normalUrl.href = "https://adfoc.us/serve/sitelinks?id=490788&&url=" + dl
 
         const mirror = document.createElement("a")
-        mirror.className = `btn btn-sm ${!!type ? type.mirror : ""}`
+        mirror.className = `btn ${!!type ? type.mirror : ""}`
         mirror.innerHTML = "Mirror"
         mirror.href = dl
 
         p.appendChild(normalUrl)
         p.innerHTML += " "
         p.appendChild(mirror)
-        p.innerHTML += ` (${count}) `
-        p.appendChild(makeGuide(type))
+        p.innerHTML += ` (${count})`
 
         document.getElementById("stable-downloads").appendChild(p)
     })
@@ -113,10 +110,4 @@ function parseVersion(asset) {
         platform: platform.toLowerCase(9),
         asset: asset
     }
-}
-
-function makeGuide(type) {
-    const dom = document.createElement("a");
-    dom.innerHTML = `<a class="install-guide" href="install-${type.name.toLowerCase().replace(/\//g, "")}.html" title="How to install"><i class="fas fa-question-circle"></i></a>`
-    return dom
 }

@@ -1,0 +1,33 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Downloads"
+    url: /downloads/
+  - title: "Panel"
+    url: "https://secure.5zigreborn.eu/panel"
+  - title: "Status"
+    url: "https://status.5zigreborn.eu/"
+  - title: "FAQ"
+    url: /faq/
+  - title: "Docs"
+    url: "https://docs.5zigreborn.eu"
+  - title: "Guides"
+    url: /guides/
+  - title: "Changelogs"
+    url: /changelogs/
+
+changelogs:
+  - title: "Changelogs"
+    children:
+      - title: "v1.14.0 (Latest)"
+        url: /changelogs/1.14.0/
+      - title: "v1.13.0"
+        url: /changelogs/1.13.0/
+
+guides:
+  - title: "Guides"
+    children:
+      - title: "Install on Vanilla"
+        url: /guides/install/vanilla/
+      - title: "Install on Fabric/Forge"
+        url: /guides/install/fabric-forge/
