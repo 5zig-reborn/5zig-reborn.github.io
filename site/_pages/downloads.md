@@ -40,7 +40,7 @@ However, you should use the [latest build](#latest-build-recommended) instead.
 Guides on how you can install the mod can be found in the [Guides section](/guides/) of this website!
 
 ## Cape-Template
-5zig Reborn allows Tier 2 Patreons to upload their own custom capes and elytra styles which can even be animated!
+5zig Reborn allows [Tier 2 Patreons](https://patreon.com/5zig) to upload their own custom capes and elytra styles which can even be animated!
 
 Animated capes and elytras use the same format as animated textures in Resource packs do, which is having each "frame" as another part below the previous one.  
 The animation is at a speed set by the mod.
