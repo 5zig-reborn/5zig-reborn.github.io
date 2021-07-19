@@ -14,6 +14,7 @@ page_js:
   - /assets/js/github.js
 ---
 
+<!--
 {% capture dev-builds %}
 The 5zig-Team decided to drop Forge-Support with the release of Minecraft 1.16 and instead only provide the mod as a [Fabric](https://fabricmc.net) solution.  
 You can find development builds of the 1.16 version for Fabric on the [deployment repository's 1.16 branch](https://github.com/5zig-reborn/deployments/tree/1.16).
@@ -25,6 +26,14 @@ You can find development builds of the 1.16 version for Fabric on the [deploymen
   <h4 class="no_toc">Current Status about Minecraft 1.16+</h4>  
   {{ dev-builds | markdownify }}
 </div>
+-->
+
+> **Current Status about Minecraft 1.16+**  
+> The 5zig-Team decided to drop Forge-Support with the release of Minecraft 1.16 and instead only provide the mod as a [Fabric](https://fabricmc.net) solution.  
+> You can find development builds of the 1.16 version for Fabric on the [deployment repository's 1.16 branch](https://github.com/5zig-reborn/deployments/tree/1.16).
+> 
+> **There is no ETA for a complete 1.16 release nor any ETA for a 1.17 development build.**
+{: .notice--warning }
 
 ## Latest Build (Recommended)
 Those are the latest build-files of the 5zig Mod.  
