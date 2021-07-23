@@ -8,6 +8,7 @@ excerpt: "All-in-one modification for Minecraft 1.8.9-1.15.2.<br>Revamp the way 
 header:
   overlay_color: "#333"
   overlay_filter: "0.5"
+  overlay_image: /assets/images/banner.png
   actions:
     - label: "<i class='fas fa-download'></i> Download for Minecraft 1.8.9-1.15.2"
       url: "https://5zigreborn.eu/downloads"
