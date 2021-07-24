@@ -8,6 +8,7 @@ excerpt: "Get the latest version of 5zig for your Minecraft Version"
 header:
   overlay_color: "#333"
   overlay_filter: "0.5"
+  overlay_image: /assets/images/banner.png
 
 
 page_js:
