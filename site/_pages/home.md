@@ -19,14 +19,15 @@ feature_row_1:
   - image_path: /assets/images/previews/hud.png
     alt: "hud"
     title: "Useful HUD"
-    excerpt: "Fully customizable HUD with useful information such as FPS, ping, system staus and more."
+    excerpt: "Fully customizable HUD with useful information such as FPS, ping, system status and more."
   - image_path: /assets/images/previews/cape.png
     alt: "capes"
     title: "Capes"
     excerpt: |-
-      A selection of 20+ default capes and the ability to upload custom capes.
+      [![](https://img.shields.io/badge/Donator%20Reward-FF424D?logo=patreon&logoColor=white&style=for-the-badge)](https://patreon.com/5zig)  
+      Select from over 20 different capes or upload your very own one to show.
       
-      This feature is donators only.
+      *The capes can only be seen by other Players using the 5zig Reborn mod!*
   - image_path: /assets/images/previews/chat.png
     alt: "chat"
     title: "Friends & Chat"
