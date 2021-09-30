@@ -22,7 +22,7 @@ feature_row_1:
     excerpt: "Fully customizable HUD with useful information such as FPS, ping, system status and more."
   - image_path: /assets/images/previews/cape.png
     alt: "capes"
-    title: 'Capes <img alt="badge" src="https://img.shields.io/badge/Donator%20Reward-FF424D?logo=patreon&logoColor=white&style=for-the-badge">'
+    title: 'Capes <a href="https://patreon.com/5zig" target="_blank" rel="nofollow noopener noreferrer"><img alt="badge" src="https://img.shields.io/badge/Donator%20Reward-FF424D?logo=patreon&logoColor=white&style=for-the-badge"></a>'
     excerpt: |- 
       Select from over 20 different capes or upload your very own one to show.
       
