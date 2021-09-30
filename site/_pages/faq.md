@@ -44,3 +44,8 @@ Additionally will we need to wait for external sources (Fabric) to be updated to
 # Is the Mod Open-Source?
 Yes it is!  
 Source code can be found on [GitHub](https://github.com/5zig-reborn) and is licensed under the [GPLv3 License](https://www.gnu.org/licenses/gpl-3.0).
+
+# Does 5zig Reborn boost FPS?
+No. 5zig Reborn does not improve FPS in any shape or form. It only provides customizable HUDs, capes and an online friend and chat system.
+
+If you want to improve your FPS do we recommend using Mods such as [Optifine](https://optifine.net/home) (Forge) or [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) (Fabric). These mods should be compatible with 5zig Reborn.
