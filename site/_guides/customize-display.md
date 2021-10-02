@@ -6,7 +6,7 @@ excerpt: "Detailed information about the 'Customize Display' Option of 5zig Rebo
 ---
 
 {% capture notice-text %}
-This page is part of the [5zig Options Guide](/guide/5zig-options) explaining all the different options that 5zig Reborn offers.
+This page is part of the [5zig Options Guide](/guides/5zig-options) explaining all the different options that 5zig Reborn offers.
 
 This section has been separated because of its size and/or complexity.
 {% endcapture %}
