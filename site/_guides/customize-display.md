@@ -1,5 +1,5 @@
 ---
-permalink: /guide/5zig-options/customize-display/
+permalink: /guides/5zig-options/customize-display/
 
 title: "Customize Display Options"
 excerpt: "Detailed information about the 'Customize Display' Option of 5zig Reborn"
@@ -20,7 +20,7 @@ The `Customize Display...` option is, as the name suggests, a way to customize t
 This page is dedicated towards explaining the various options and what they do.
 
 ## Overview
-![customize-display-screen]({{ "/assets/images/guides/5zig-options/customize-display.png" | relative_url }}){: .align-right }
+[![customize-display-screen]({{ "/assets/images/guides/5zig-options/customize-display.png" | relative_url }}){: .align-right width="50" }]({{ "/assets/images/guides/5zig-options/customize-display.png" | relative_url }}){: .image-popup }
 
 When you look at the Option screen for the first time will it be a bit confusing at first, but after a while (And after reading through this page) should you have a fairly easy understanding of the screen and how to navigate through it.
 
@@ -58,7 +58,7 @@ Theyr position in the list has no effect on how the module is displayed.
 ----
 
 ## Editing a Module
-![module-settings]({{ "/assets/images/guides/5zig-options/customize-display/module-settings" | relative_url }}){: .align-right }
+[![module-settings]({{ "/assets/images/guides/5zig-options/customize-display/module-settings" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/customize-display/module-settings" | relative_url }}){: .image-popup }
 
 When clicking the `Settings...` button will you be greeted with a new screen that contains a lot of buttons to change and edit.
 
@@ -74,7 +74,7 @@ The `Translation-Key` can be used to set a key from the currently used language 
 Example: Setting `armor.title` will display the text of `armor.title` from your currently set Language file, which would be `Armor HUD` for `en_US`.
 
 ### Items
-![items-screen]({{ "/assets/images/guides/5zig-options/customize-display/items-screen.png" | relative_url }}){: .align-right }
+[![items-screen]({{ "/assets/images/guides/5zig-options/customize-display/items-screen.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/customize-display/items-screen.png" | relative_url }}){: .image-popup }
 
 The `Items (<number>)...` button opens yet another screen where you have different options.
 
@@ -83,7 +83,7 @@ The `Items` field on the left lists all currently added items for this module.
 You can use the [`Add new Item...`](#add-new-item) button to add another item or click the `-` button to remove the currently selected one.
 
 #### Add new Item
-![items-new-item-screen]({{ "/assets/images/guides/5zig-options/customize-display/add-new-item-screen.png" | relative_url }}){: .align-right }
+[![items-new-item-screen]({{ "/assets/images/guides/5zig-options/customize-display/add-new-item-screen.png" | relative_url }}){: .align-right }]({{ "/assets/images/guides/5zig-options/customize-display/add-new-item-screen.png" | relative_url }}){: .image-popup }
 
 With `Add new Item...` can you add an item to the list. You will have a screen with two sections in it.
 
@@ -146,7 +146,7 @@ Clicking it will open a window with the following options:
   Click to set a HEX colour code to use. You don't have to add a `#` to it.
 
 ### Location
-![location-screen]({{ "/assets/images/guides/5zig-options/customize-display/location-screen.png" | relative_url }}){: .align-right }
+[![location-screen]({{ "/assets/images/guides/5zig-options/customize-display/location-screen.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/customize-display/location-screen.png" | relative_url }}){: .image-popup }
 
 The `Location` option opens a new screen where you can set the location of the Module.
 
@@ -157,6 +157,6 @@ The `Anchor` button can be used to set the Alignment of the items relative to th
 You can toggle between `Top Left`, `Top Center`, `Top Right`, `Center Left`, `Center`, `Center Right`, `Bottom Left`, `Bottom Center` and `Bottom Right`.
 
 ### Server
-![server-screen]({{ "/assets/images/guides/5zig-options/customize-display/server-screen.png" | relative_url }}){: .align-right }
+[![server-screen]({{ "/assets/images/guides/5zig-options/customize-display/server-screen.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/customize-display/server-screen.png" | relative_url }}){: .image-popup }
 
 `Server` opens a list of Server domains that you can choose from. Selecting one will set the module to only show when you join that particular server.
