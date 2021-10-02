@@ -15,3 +15,8 @@ Not sure how to install 5zig Reborn? These pages have you covered!
 
 [<i class="fas fa-cube"></i> Vanilla](install-vanilla.md){: .btn .btn--primary }  
 [<i class="fas fa-weight-hanging"></i> Fabric / Forge](install-fabric-forge.md){: .btn .btn--primary }
+
+### 5zig Reborn Options
+A guide all about the different options of 5zig Reborn!
+
+[5zig Reborn Options](5zig-options){: .btn .btn--primary }
