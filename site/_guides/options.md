@@ -66,7 +66,7 @@ This is such a big option that we have a dedicated page for it.
 [More Info](customize-display){: .btn .btn--info }
 
 ### TeamSpeak
-![teamspeak]({{ "/assets/images/guides/5zig-options/teamspeak.png" | relative_url }}){: .align-right }
+[![teamspeak]({{ "/assets/images/guides/5zig-options/teamspeak.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/teamspeak.png" | relative_url }}){: .image-popup }
 
 The `TeamSpeak` button will open a Screen which, when connected to a TeamSpeak Server, will display all channels and users of that particular server.  
 It allows you to do everything you can do in the TeamSpeak Client through Minecraft such as sending messages, switching Voice channels, (un)muting yourself or setting you as AFK.
@@ -86,7 +86,7 @@ Clicking on the button opens a window with three separate options:
 {% include gallery caption="The `Cape Settings...` button, screen and different options" id="cape" %}
 
 ### Language
-![language]({{ "/assets/images/guides/5zig-options/language.png" | relative_url }}){: .align-right }
+[![language]({{ "/assets/images/guides/5zig-options/language.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/language.png" | relative_url }}){: .image-popup }
 
 In the `Language...` screen can you change the language used for 5zig Reborn.  
 All languages provided are translated by the community and we always welcome new contributors!
@@ -96,14 +96,14 @@ With the `Mod Scale` slider can you set the size in which the different HUD elem
 By default is it set to `100%` but it can be as low as `50%` and as high as `150%`.
 
 ### Display Options
-![display-options]({{ "/assets/images/guides/5zig-options/display-options.png" | relative_url }}){: .align-right }
+[![display-options]({{ "/assets/images/guides/5zig-options/display-options.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/display-options.png" | relative_url }}){: .image-popup }
 
 `Display Options...` contains a lot of additional settings that we will cover in detail on a dedicated page
 
 [More Info](display-options){: .btn .btn--info }
 
 ### Server Options
-![server-options]({{ "/assets/images/guides/5zig-options/server-options.png" | relative_url }}){: .align-right }
+[![server-options]({{ "/assets/images/guides/5zig-options/server-options.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/server-options.png" | relative_url }}){: .image-popup }
 
 Yet another massive option, the `Server Options...` screen offers a lot of settings for you to customize.  
 A dedicated page explaining the different options is available.
@@ -115,7 +115,7 @@ Wether your current status should be displayed as a Discord Presence in your Dis
 If enabled will the 5zig Logo be displayed alongside information such as your current activity and location (Either server domain or options location).
 
 ### Coordinates Clipboard
-![coordinates-clipboard]({{ "/assets/images/guides/5zig-options/coordinates-clipboard.png" | relative_url }}){: .align-right }
+[![coordinates-clipboard]({{ "/assets/images/guides/5zig-options/coordinates-clipboard.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/coordinates-clipboard.png" | relative_url }}){: .image-popup }
 
 The `Coordinates Clipboard...` option opens a screen where you can save X and Y coordinates. Those can be displayed in your custom HUD screen.  
 Special shortcuts have been implemented that allow you to save specific coordinates quick and easy.
@@ -128,7 +128,7 @@ Special shortcuts have been implemented that allow you to save specific coordina
 Clicking on `Reset Configuration...` will open a Prompt, where you get asked, if you want to reset your 5zig Configuration. Clicking `Yes` will result in all the options being set back to their default settings.
 
 ### Chat
-![friends-system]({{ "/assets/images/guides/5zig-options/friends-system.png" | relative_url }}){: .align-right }
+[![friends-system]({{ "/assets/images/guides/5zig-options/friends-system.png" | relative_url }}){: .align-right  width="50%" }]({{ "/assets/images/guides/5zig-options/friends-system.png" | relative_url }}){: .image-popup }
 
 The `Chat...` option can be found in the bottom-right corner of the screen and will open your Friends Menu.  
 The entire Friend and Chat-System is covered in a separate page.

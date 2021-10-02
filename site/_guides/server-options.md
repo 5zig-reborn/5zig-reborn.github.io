@@ -1,12 +1,12 @@
 ---
-permalink: /guide/5zig-options/server-options/
+permalink: /guides/5zig-options/server-options/
 
 title: "Server Options"
 excerpt: "Detailed information about the 'Server Options' of 5zig Reborn"
 ---
 
 {% capture notice-text %}
-This page is part of the [5zig Options Guide](/guide/5zig-options) explaining all the different options that 5zig Reborn offers.
+This page is part of the [5zig Options Guide](/guides/5zig-options) explaining all the different options that 5zig Reborn offers.
 
 This section has been separated because of its size and/or complexity.
 {% endcapture %}
@@ -19,14 +19,14 @@ This section has been separated because of its size and/or complexity.
 The `Server Options` screen contains a few settings that can be useful for multiplayer experiences.
 
 ## Overview
-![server-options]({{ "/assets/images/guides/5zig-options/server-options.png" | relative_url }}){: .align-right }
+[![server-options]({{ "/assets/images/guides/5zig-options/server-options.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/server-options.png" | relative_url }}){: .image-popup }
 
 Most options are text/chat-based ones and are quickly explained below.
 
 ## Options
 
 ### General
-![general]({{ "/assets/images/guides/5zig-options/server-options/general.png" | relative_url }}){: .align-right }
+[![general]({{ "/assets/images/guides/5zig-options/server-options/general.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/server-options/general.png" | relative_url }}){: .image-popup }
 
 Contains main/generic options.
 
@@ -59,7 +59,7 @@ When enabled can Servers send requests to the mod through the usage of plugins a
 When enabled will you be required to click a second time on the Disconnect button to confirm your disconnect.
 
 ### Highlight Words
-![highlight-words]({{ "/assets/images/guides/5zig-options/server-options/highlight-words.png" | relative_url }}){: .align-right }
+[![highlight-words]({{ "/assets/images/guides/5zig-options/server-options/highlight-words.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/server-options/highlight-words.png" | relative_url }}){: .image-popup }
 
 Allows you to add words/phrases using `Add Entry...` which should be highlighted in chat whenever they are posted.  
 You can use `%player%` for your own player name.
@@ -67,7 +67,7 @@ You can use `%player%` for your own player name.
 You can delete an entry by selecting it and clicking `Remove Entry`
 
 ### Chat Message Filter
-![message-filter]({{ "/assets/images/guides/5zig-options/server-options/message-filter.png" | relative_url }}){: .align-right }
+[![message-filter]({{ "/assets/images/guides/5zig-options/server-options/message-filter.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/server-options/message-filter.png" | relative_url }}){: .image-popup }
 
 Allows you to filter out specific chat messages.  
 You can add new entries using the `Add Message` button. Use the `Edit Message` button to edit a selected message and `Delete Message` to delete it.
@@ -76,7 +76,7 @@ Placeholders and Wildcards are supported too!
 Read more about this feature here: https://docs.5zigreborn.eu/Mod/chat-filter/
 
 ### Text Macros
-![text-macros]({{ "/assets/images/guides/5zig-options/server-options/text-macros.png" | relative_url }}){: .align-right }
+[![text-macros]({{ "/assets/images/guides/5zig-options/server-options/text-macros.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/server-options/text-macros.png" | relative_url }}){: .image-popup }
 
 Allows you to set key combinations to send predefined text.  
 Use the `Add Macro` button to add a new Macro, `Edit Macro` to edit one and `Delete Macro` to delete it.
@@ -85,7 +85,7 @@ When adding or editing a Macro can you set a message, set a key combination and 
 When setting your key combination will you need to click on `Press And Enter Your Key Combination` followed by the key strokes to use.
 
 ### Join Auto-texts
-![join-text]({{ "/assets/images/guides/5zig-options/server-options/join-text.png" | relative_url }}){: .align-right }
+[![join-text]({{ "/assets/images/guides/5zig-options/server-options/join-text.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/server-options/join-text.png" | relative_url }}){: .image-popup }
 
 Add text that should be automatically send whenever you join a specific server.  
 When clicking on `Add Text` will you be asked to provide the message to send, the server domain/ip and a delay in seconds after which the message should be send.
@@ -93,7 +93,7 @@ When clicking on `Add Text` will you be asked to provide the message to send, th
 You can also edit text using `Edit Text` or delete it using `Delete Text`.
 
 ### Hypixel.net
-![hypixel]({{ "/assets/images/guides/5zig-options/server-options/hypixel.png" | relative_url }}){: .align-right }
+[![hypixel]({{ "/assets/images/guides/5zig-options/server-options/hypixel.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/server-options/hypixel.png" | relative_url }}){: .image-popup }
 
 Contains settings for the Hypixel server.
 
@@ -115,7 +115,7 @@ Shows your friends on the Hypixel server.
 You can Show Stats, Add players as mods or add all requests.
 
 ### 2nd Chat
-![2nd-chat]({{ "/assets/images/guides/5zig-options/server-options/2nd-chat.png" | relative_url }}){: .align-right }
+[![2nd-chat]({{ "/assets/images/guides/5zig-options/server-options/2nd-chat.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/server-options/2nd-chat.png" | relative_url }}){: .image-popup }
 
 The 2nd Chat option contains settings for a secondary chat that can be used.  
 It will display messages that have been specified in the [Chat Message Filter](#chat-message-filter)
@@ -148,7 +148,7 @@ Set the width of the chat.
 Can be between `40px` and `320px`.
 
 ### Text Shortcuts
-![text-shortcuts]({{ "/assets/images/guides/5zig-options/server-options/text-shortcuts.png" | relative_url }}){: .align-right }
+[![text-shortcuts]({{ "/assets/images/guides/5zig-options/server-options/text-shortcuts.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/server-options/text-shortcuts.png" | relative_url }}){: .image-popup }
 
 Allows you to define Shortcuts to display larger amounts of text or special characters through specific phrases/placeholders.  
 For example can you define `&shrug` which would be replaced with `¯\_(ツ)_/¯` when send.
@@ -157,6 +157,6 @@ When adding a new Shortcut using `Add Shortcut` can you set set the Message, the
 You can also edit or delete a shortcut using `Edit Shortcut` and `Delete Shortcut` respectively.
 
 ### Username History
-![name-history]({{ "/assets/images/guides/5zig-options/server-options/name-history.png" | relative_url }}){: .align-right }
+[![name-history]({{ "/assets/images/guides/5zig-options/server-options/name-history.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/server-options/name-history.png" | relative_url }}){: .image-popup }
 
 Displays your previously used usernames and allows you to search for them.
