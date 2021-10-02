@@ -23,7 +23,7 @@ You can find development builds of the 1.16 version for Fabric on the [deploymen
 {% endcapture %}
 
 <div class="notice--warning">
-  <h4 class="no_toc">Current Status about Minecraft 1.16+</h4>  
+  <h4 class="no_toc"><i class="fas fa-info-circle"></i> Current Status about Minecraft 1.16+</h4>  
   {{ dev-builds | markdownify }}
 </div>
 
