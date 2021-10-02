@@ -128,12 +128,12 @@ Special shortcuts have been implemented that allow you to save specific coordina
 Clicking on `Reset Configuration...` will open a Prompt, where you get asked, if you want to reset your 5zig Configuration. Clicking `Yes` will result in all the options being set back to their default settings.
 
 ### Chat
-[![friends-system]({{ "/assets/images/guides/5zig-options/friends-system.png" | relative_url }}){: .align-right  width="50%" }]({{ "/assets/images/guides/5zig-options/friends-system.png" | relative_url }}){: .image-popup }
+[![friend-system]({{ "/assets/images/guides/5zig-options/friend-system.png" | relative_url }}){: .align-right  width="50%" }]({{ "/assets/images/guides/5zig-options/friend-system.png" | relative_url }}){: .image-popup }
 
 The `Chat...` option can be found in the bottom-right corner of the screen and will open your Friends Menu.  
 The entire Friend and Chat-System is covered in a separate page.
 
-[More Info](friends-system)
+[More Info](friend-system){: .btn .btn--info }
 
 ### Database Encryption
 On the very bottom-right of the screen can you find a button with a person silhouette on it. Clicking on it opens a prompt to enter a password for Database Encryption.  
