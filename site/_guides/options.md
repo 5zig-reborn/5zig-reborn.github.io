@@ -58,7 +58,7 @@ With `Auto-Report Crashes` enabled (Default) will the client automatically send 
 This helps in finding bugs and improving the mod so it's recommended to keep it enabled.
 
 ### Customize Display
-![customize-display]({{ "/assets/images/guides/5zig-options/customize-display.png" | relative_url }}){: .align-right }
+[![customize-display]({{ "/assets/images/guides/5zig-options/customize-display.png" | relative_url }}){: .align-right }]({{ "/assets/images/guides/5zig-options/customize-display.png" | relative_url }}){: .image-popup }
 
 Probably the heart of 5zig Reborn, the `Customize Display...` option allows you to create and manage various HUD displays with lots of information to choose from.  
 This is such a big option that we have a dedicated page for it.
