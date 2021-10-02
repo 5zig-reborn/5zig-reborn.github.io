@@ -42,7 +42,7 @@ You should then see a screen with all the currently available options.
 5zig Offers a lot of different options that can be used to customize the mod to your liking. Some settings are more advanced than others.
 
 ### Plugins
-![plugins]({{ "/assets/images/guides/5zig-options/plugins-screen.png" | relative_url }}){: .align-right }
+![plugins]({{ "/assets/images/guides/5zig-options/plugins-screen.png" | relative_url }}){: .align-right .width="50%" }
 
 The `Plugins` option, which is shown in the top-left corner of the screen, can be used to add and manage Plugins for the 5zig Reborn mod.  
 This allows you to enhance the mod even further with additional features and QOL changes.
