@@ -42,7 +42,7 @@ You should then see a screen with all the currently available options.
 5zig Offers a lot of different options that can be used to customize the mod to your liking. Some settings are more advanced than others.
 
 ### Plugins
-![plugins]({{ "/assets/images/guides/5zig-options/plugins-screen.png" | relative_url }}){: .align-right .width="50%" }
+[![plugins]({{ "/assets/images/guides/5zig-options/plugins-screen.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/plugins-screen.png" | relative_url }}){: .image-popup }
 
 The `Plugins` option, which is shown in the top-left corner of the screen, can be used to add and manage Plugins for the 5zig Reborn mod.  
 This allows you to enhance the mod even further with additional features and QOL changes.
@@ -58,7 +58,7 @@ With `Auto-Report Crashes` enabled (Default) will the client automatically send 
 This helps in finding bugs and improving the mod so it's recommended to keep it enabled.
 
 ### Customize Display
-[![customize-display]({{ "/assets/images/guides/5zig-options/customize-display.png" | relative_url }}){: .align-right }]({{ "/assets/images/guides/5zig-options/customize-display.png" | relative_url }}){: .image-popup }
+[![customize-display]({{ "/assets/images/guides/5zig-options/customize-display.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/customize-display.png" | relative_url }}){: .image-popup }
 
 Probably the heart of 5zig Reborn, the `Customize Display...` option allows you to create and manage various HUD displays with lots of information to choose from.  
 This is such a big option that we have a dedicated page for it.
