@@ -83,7 +83,7 @@ Clicking on the button opens a window with three separate options:
 - `Upload Cape...`  
   Opens a screen, where you can navigate to the folder containing your custom cape-file. Capes can even be animated! This option is only available for donators.
 
-{% insert gallery caption="The `Cape Settings...` button, screen and different options" id="cape" %}
+{% include gallery caption="The `Cape Settings...` button, screen and different options" id="cape" %}
 
 ### Language
 ![language]({{ "/assets/images/guides/5zig-options/language.png" | relative_url }}){: .align-right }
