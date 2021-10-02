@@ -1,5 +1,5 @@
 ---
-permalink: /guide/5zig-options/display-options/
+permalink: /guides/5zig-options/display-options/
 
 title: "Display Options"
 excerpt: "Detailed information about the 'Display Options' of 5zig Reborn"
@@ -19,14 +19,14 @@ This section has been separated because of its size and/or complexity.
 5zig Reborn offers a lot of customization through its `Display Options...` screen which will be covered in this page.
 
 ## Overview
-![display-options]({{ "/assets/images/guides/5zig-options/display-options.png" | relative_url }}){: .align-right }
+[![display-options]({{ "/assets/images/guides/5zig-options/display-options.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/display-options.png" | relative_url }}){: .image-popup }
 
 There are a lot of options to cover here.
 
 ## Options
 
 ### Formatting Options
-![formatting-options]({{ "/assets/images/guides/5zig-options/display-options/formatting-options.png" | relative_url }}){: .align-right }
+[![formatting-options]({{ "/assets/images/guides/5zig-options/display-options/formatting-options.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/display-options/formatting-options.png" | relative_url }}){: .image-popup }
 
 Behind this button are the main configuration options you can alter to your liking.
 
@@ -84,7 +84,7 @@ You can set between `2.0x` and `12.0x`
 When enabled will a button be shown right next to the `Multiplayer` one that shows the domain/ip of the last server you joined. Clicking that button will connect you to that server directly.
 
 ### LED Keyboard Settings
-![led-keyboard-settings]({{ "/assets/images/guides/5zig-options/display-options/led-keyboard-settings.png" | relative_url }}){: .align-right }
+[![led-keyboard-settings]({{ "/assets/images/guides/5zig-options/display-options/led-keyboard-settings.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/display-options/led-keyboard-settings.png" | relative_url }}){: .image-popup }
 
 The `LED Keyboard Settings...` shows settings that allow you to connect a LED keyboard with minecraft.
 
@@ -125,7 +125,7 @@ When enabled will the background of the Multiplayer chat be completely transpare
 When enabled will you be able to see your own nametag in Third-person.
 
 ### Hud Options
-![hud-options]({{ "/assets/images/guides/5zig-options/display-options/hud-options.png" | relative_url }}){: .align-right }
+[![hud-options]({{ "/assets/images/guides/5zig-options/display-options/hud-options.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/display-options/hud-options.png" | relative_url }}){: .image-popup }
 
 Contains different settings for your HUD and Hotbar.
 
@@ -162,7 +162,7 @@ Set how many lines you can scroll back in chat.
 You can set between `50` and `1000` lines and can be increased or decreased by `50`.
 
 ### Time in Chat Messages
-![time-in-chat]({{ "/assets/images/guides/5zig-options/display-options/time-in-chat.png" | relative_url }}){: .align-right }
+[![time-in-chat]({{ "/assets/images/guides/5zig-options/display-options/time-in-chat.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/display-options/time-in-chat.png" | relative_url }}){: .image-popup }
 
 This option contains different options to enable and configure displaying the time of when a message was send in chat.
 
