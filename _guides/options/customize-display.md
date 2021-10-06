@@ -28,7 +28,7 @@ When you look at the Option screen for the first time will it be a bit confusing
 
 ### Modules
 The `Modules` section on the left lists the different HUDs you currently have. By default are there already a few created that can be used ingame.  
-To remove a module, select it and click the button with the hyphon/minus symbol (`-`) on it.
+To remove a module, select it and click the `-` button.
 
 ### Add new Module
 With `Add new Module...` can you create a new module that should be displayed.  
@@ -48,12 +48,16 @@ How you can configure a Module is covered in a dedicated section below.
 This button will display either `Enable` or `Disable` depending on the Module's current state. Clicking it will toggle the state of the current Module to enabled or disabled.
 
 ### Move Up
-With `Move Up` can you move the module up one step on the list. The button is disabled (greyed out) when the module is at the very top.  
-Theyr position in the list has no effect on how the module is displayed.
+`Move Up` will move the module one position up in the list.  
+This button will be disabled (greyed out) while the module is at the very top of the list.
+
+The position of the module has no direct influence on how/where they are displayed.
 
 ### Move Down
-With `Move Down` can you move the module down one step on the list. The button is disabled (greyed out) when the module is at the very bottom.  
-Theyr position in the list has no effect on how the module is displayed.
+`Move Down` will move the module one position down in the list.  
+This button will be disabled (greyed out) while the module is at the very bottom of the list.
+
+The position of the module has no direct influence on how/where they are displayed.
 
 ----
 
@@ -70,8 +74,11 @@ The `Id` field contains the name under which the module is saved. Clicking it op
 You can use the `%version%` placeholder to display the 5zig Reborn version.
 
 ### Translation-Key
-The `Translation-Key` can be used to set a key from the currently used language file of 5zig Reborn. This will automatically display the translated text for the corresponding key.  
-Example: Setting `armor.title` will display the text of `armor.title` from your currently set Language file, which would be `Armor HUD` for `en_US`.
+The `Translation-Key` setting is used when you want the text to be different per language used.  
+When set will 5zig try finding the provided key in its currently used language property-file and if found display the corresponding value for it.
+
+Example:  
+Setting `Translation-Key` to `armor.title` while using `en_US` as language will make 5zig Reborn search for `armor.title` in the `language_en_US.properties` file and display `Armor HUD` as a result for it.
 
 ### Items
 [![items-screen]({{ "/assets/images/guides/5zig-options/customize-display/items-screen.png" | relative_url }}){: .align-right width="50%" }]({{ "/assets/images/guides/5zig-options/customize-display/items-screen.png" | relative_url }}){: .image-popup }
@@ -88,7 +95,7 @@ You can use the [`Add new Item...`](#add-new-item) button to add another item or
 With `Add new Item...` can you add an item to the list. You will have a screen with two sections in it.
 
 On the left one can you see different categories such as `General`, `Equipment` or Server specific categories.  
-On the right side will you see the different item types for that selected category. Hovering over an item will show a description of what it is and what it displays.
+On the right side will you see the different item types for that selected category. Most of the items have a tooltip that explains what they display when you hover over them.
 
 #### Settings
 The `Settings` section will contain options relative to the currently selected item.  
@@ -121,7 +128,8 @@ Click to toggle between showing and hiding the prefix.
 Click to set a prefix. This may only work with specific items.
 
 #### Up/Down arrows
-Click the up/down arrow buttons to switch the position of the item in the list. The buttons may be disabled (greyed out) if they are at the very top or bottom in the list respectively.
+Click the up/down arrow buttons to switch the position of the item in the list.  
+The buttons may be disabled (greyed out) if the item is at the very top or very bottom of the list.
 
 The position of the item affects where it is displayed in the Module itself.
 
@@ -150,10 +158,10 @@ Clicking it will open a window with the following options:
 
 The `Location` option opens a new screen where you can set the location of the Module.
 
-You can use the button on the very left to toggle the module's position between `Top Left`, `Top Right`, `Center Left`, `Center Right`, `Bottom Left`, `Bottom Right` and `Custom`.  
-Last option, which can also be selected will both unlock the `Anchor` button and allow extremely precise positioning of the module through drag-and-drop method.
+The button on the left allows you to set the module's position to either `Top Left`, `Top Right`, `Center Left`, `Center Right`, `Bottom Left`, `Bottom Right` or `Custom`.  
+Last one will automatically be selected when you drag and drop the module with your cursor.
 
-The `Anchor` button can be used to set the Alignment of the items relative to the module. For example will `Top Left` put the items on the very top-left of the module. The Anchor is indicated with a small red square at the red line.  
+The `Anchor` button can be used to set the Alignment of the items relative to the module. For example will `Top Left` put the items on the very top-left of the module. The Anchor is indicated with a small red square.  
 You can toggle between `Top Left`, `Top Center`, `Top Right`, `Center Left`, `Center`, `Center Right`, `Bottom Left`, `Bottom Center` and `Bottom Right`.
 
 ### Server
