@@ -39,7 +39,11 @@ However, you should use the [latest build](#latest-build-recommended) instead.
 
 <h4 id="stable-name"></h4>
 
+{% capture stable-changelog %}
 <div id="stable-changelog"></div>
+{% endcapture %}
+
+{{ stable-changelog | markdownify }}
 <div id="stable-downloads"></div>
 
 ### Installation
