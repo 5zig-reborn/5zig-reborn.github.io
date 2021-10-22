@@ -45,7 +45,7 @@ However, you should use the [latest build](#latest-build-recommended) instead.
 ### Installation
 Guides on how you can install the mod can be found in the [Guides section](/guides/) of this website!
 
-## Cape-Template
+## Cape-Template <a href="https://patreon.com/5zig" target="_blank" rel="nofollow noopener noreferrer"><img alt="badge" src="https://img.shields.io/badge/Donator%20Reward-FF424D?logo=patreon&logoColor=white&style=for-the-badge"></a>
 5zig Reborn allows [Tier 2 Patreons](https://patreon.com/5zig) to upload their own custom capes and elytra styles which can even be animated!
 
 Animated capes and elytras use the same format as animated textures in Resource packs do, which is having each "frame" as another part below the previous one.  
