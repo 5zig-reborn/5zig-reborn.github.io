@@ -19,11 +19,11 @@ This privacy policy will cover how our organization uses the personal data we co
 **Overview:**
 
 - [Account and Data](#account-and-data)
-  - [What data we collect](#what-data-do-we-collect)
+  - [What data we collect](#what-data-we-collect)
   - [How we collect your data](#how-we-collect-your-data)
   - [How your data is used](#how-your-data-is-used)
   - [How your data is stored](#how-your-data-is-stored)
-  - [Marketing](#use-of-your-data-for-marketing)
+  - [Use of your data for Marketing](#use-of-your-data-for-marketing)
   - [Your rights of data protection](#your-rights-of-data-protection)
 - [Cookies](#cookies)
   - [What are cookies?](#what-are-cookies)
@@ -56,7 +56,7 @@ Doing so will remove all data stored about you forever.
 
 Data may be re-added when using the services again as mentioned above.
 
-### Marketing
+### Use of your data for Marketing
 We do not send any of your data to 3rd-party sites or services for any means whatsoever.
 
 ### Your rights of data protection
