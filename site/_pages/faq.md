@@ -30,10 +30,10 @@ If you had a cape in the old 5zig Mod will you unfortunately not get one for fre
 
 # How do I get a cape?
 By donating.  
-You currently can donate using [Patreon](https://patreon.com/5zig) and after you pledged can you login to the Panel (In the mod go to `The 5zig Mod > Chat`) and connect your Patreon account. Afterwards can you get your cape.
+You currently can donate using [Patreon](https://patreon.com/5zig) and after you pledged you can login to the Panel (In the mod go to `The 5zig Mod > Chat`) and connect your Patreon account. Afterwards can you get your cape.
 
 # Will I lose my cape when I stop pledging?
-No. After you first donation passed successfully will you keep the cape-feature.  
+No. After you first donation passed successfully you will keep the cape-feature.  
 (We would still appreciate if you stay a Patreon tho...)
 
 # When will you support Version X?
