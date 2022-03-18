@@ -45,6 +45,9 @@ Additionally will we need to wait for external sources (Fabric) to be updated to
 Yes it is!  
 Source code can be found on [GitHub](https://github.com/5zig-reborn) and is licensed under the [GPLv3 License](https://www.gnu.org/licenses/gpl-3.0).
 
+# Where can I get an introduction to the mod?
+Guides to the various functionalities and settings of the mod can be found at the [Guides](https://5zigreborn.eu/guides/) section.
+
 # Does 5zig Reborn boost FPS?
 No. 5zig Reborn does not improve FPS in any shape or form. It only provides customizable HUDs, capes and an online friend and chat system.
 
